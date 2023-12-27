@@ -1,0 +1,10 @@
+# values.yaml
+replicaCount: 1
+image:
+  repository: mohammedyunus2002/legal-document-summarizer
+  tag: 1.0.0
+  pullPolicy: IfNotPresent
+service:
+  name: legal-document-summarizer-service
+  type: ClusterIP
+  port: 80

@@ -1,0 +1,5 @@
+# Chart.yaml
+apiVersion: v2
+name: legal-document-summarizer
+description: Helm chart for deploying the Legal Document Summarizer Flask app
+version: 0.1.0
